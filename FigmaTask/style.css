@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.figma {
+    width: 86%;
+}
+
+main {
+    display: flex;
+}
+
+.side-img {
+    width: 314px;
+    height: 315px;
+    margin: 5% 0; 
+}
+h1 {
+    font-family: 'Roboto Slab', serif;
+    margin: 5% 0;
+}
+.additions{
+    margin: 10% 0;
+    display: flex;
+}
+.first{
+    width: 150px;
+    margin-right: 90px;
+}
+.frs{
+    display: flex;
+}
+/*Desktop*/
+@media screen and (min-width:1400px) {
+    main {
+        margin-top: 18px;
+        /* margin-right: 150px; */
+    }
+
+    .additions {
+        display: flex;
+        padding-left: 124px;
+        margin-top: 25px;
+    }
+
+    .side-img {
+        margin: 24px 0 102px 190px;
+    }
+
+    h1 {
+        margin-left: 124px;
+        margin-top: 91px;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 55.762px;
+        width: 365px;
+        height: 93px;
+    }
+
+    .main-text {
+
+        margin-left: 124px;
+        /* margin-right: 190px; */
+
+        font-size: 24px;
+        font-weight: 400;
+        /* line-height: 36px; */
+        width: 662px;
+        /* height: 441px; */
+        /*padding-bottom: 20px;
+*/
+    }
+
+    .sec-img {
+        margin-right: 132px;
+    }
+
+    .first {
+        margin: auto 95px auto 0;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 32.5px;
+        width: 150px;
+        height: 39px;
+    }
+
+    .sec {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 23.4px;
+        width: 150px;
+        height: 39px;
+    }
+
+    .txt {
+        margin-bottom: 20px;
+    }
+}
+
+/*Tablets*/
+@media screen and (min-width:831px) and (max-width:1399px) {
+    .sec-img {
+        display: none;
+    }
+
+    h1 {
+        margin-top: 56px;
+        margin-left: 72px;
+        margin-bottom: 10.42px;
+        width: 211.396px;
+        height: 53.863px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 101.385%;
+    }
+
+    main {
+        display: flex;
+        /* margin-top: 120.9px;
+        margin-left: 72px; */
+    }
+
+    .main-text {
+        margin-right: 110.04px;
+        margin-left: 72px;
+        width: 431.408px;
+        ;
+    }
+
+    p {
+        margin-bottom: 30px;
+    }
+
+    .side-img {
+        margin-top: 13.9px;
+        margin-bottom: 3.47px;
+        width: 181.858px;
+        height: 182.438px;
+    }
+
+    .additions {
+        display: flex;
+        margin-left: 72px;
+        margin-top: 0px;
+    }
+
+    .first {
+        margin-right: 55.02px;
+        width: 86.875px;
+        height: 22.587px;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 130%;
+    }
+
+    .sec {
+        font-weight: 400;
+        line-height: 15.4px;
+        width: 90px;
+        height: 39px;
+    }
+
+    h3 {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 130%;
+        width: 86.875px;
+        height: 22.587px;
+
+    }
+}
+
+/*Telephone*/
+@media screen and (min-width:375px) and (max-width:830px) {
+    main {
+        display: block;
+    }
+
+    .figma {
+        margin-left: 36px;
+    }
+
+    .side-img {
+        width: 74%;
+        height: 50%;
+    }
+    .first{
+        width: 32%;
+        margin-right: 24px;
+        margin-top: 20px;
+    }
+
+    .two {
+        width: 60px;
+        margin-right: 14px;
+        margin-top: 20px;
+    }
+
+    .one {
+        margin-right: 80px;
+    }
+    .frs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sec-img {
+        display: none;
+    }
+}
